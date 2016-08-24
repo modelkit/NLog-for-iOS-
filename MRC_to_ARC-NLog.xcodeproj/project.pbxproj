@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D5846691D6D68AA00863374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846681D6D68AA00863374 /* main.m */; };
+		6D58466C1D6D68AA00863374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D58466B1D6D68AA00863374 /* AppDelegate.m */; };
+		6D58466F1D6D68AA00863374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D58466E1D6D68AA00863374 /* ViewController.m */; };
+		6D5846721D6D68AA00863374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5846701D6D68AA00863374 /* Main.storyboard */; };
+		6D5846741D6D68AA00863374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5846731D6D68AA00863374 /* Assets.xcassets */; };
+		6D5846771D6D68AA00863374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5846751D6D68AA00863374 /* LaunchScreen.storyboard */; };
+		6D5846931D6D693000863374 /* NLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846801D6D693000863374 /* NLog.m */; };
+		6D5846941D6D693000863374 /* NLogConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846821D6D693000863374 /* NLogConfig.m */; };
+		6D5846951D6D693000863374 /* NReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846841D6D693000863374 /* NReachability.m */; };
+		6D5846961D6D693000863374 /* NSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846861D6D693000863374 /* NSender.m */; };
+		6D5846971D6D693000863374 /* NSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846881D6D693000863374 /* NSession.m */; };
+		6D5846981D6D693000863374 /* NStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D58468A1D6D693000863374 /* NStorage.m */; };
+		6D5846991D6D693000863374 /* NStringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D58468C1D6D693000863374 /* NStringExtension.m */; };
+		6D58469A1D6D693000863374 /* NTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D58468E1D6D693000863374 /* NTracker.m */; };
+		6D58469B1D6D693000863374 /* NUIDeviceExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846901D6D693000863374 /* NUIDeviceExtension.m */; };
+		6D58469C1D6D693000863374 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5846921D6D693000863374 /* OpenUDID.m */; };
+		6D5846A01D6D6ED700863374 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D58469F1D6D6ED700863374 /* libz.1.2.5.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D5846641D6D68AA00863374 /* MRC_to_ARC-NLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRC_to_ARC-NLog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5846681D6D68AA00863374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D58466A1D6D68AA00863374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D58466B1D6D68AA00863374 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D58466D1D6D68AA00863374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D58466E1D6D68AA00863374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D5846711D6D68AA00863374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D5846731D6D68AA00863374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D5846761D6D68AA00863374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D5846781D6D68AA00863374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D58467F1D6D693000863374 /* NLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLog.h; sourceTree = "<group>"; };
+		6D5846801D6D693000863374 /* NLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLog.m; sourceTree = "<group>"; };
+		6D5846811D6D693000863374 /* NLogConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLogConfig.h; sourceTree = "<group>"; };
+		6D5846821D6D693000863374 /* NLogConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLogConfig.m; sourceTree = "<group>"; };
+		6D5846831D6D693000863374 /* NReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NReachability.h; sourceTree = "<group>"; };
+		6D5846841D6D693000863374 /* NReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NReachability.m; sourceTree = "<group>"; };
+		6D5846851D6D693000863374 /* NSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSender.h; sourceTree = "<group>"; };
+		6D5846861D6D693000863374 /* NSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSender.m; sourceTree = "<group>"; };
+		6D5846871D6D693000863374 /* NSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSession.h; sourceTree = "<group>"; };
+		6D5846881D6D693000863374 /* NSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSession.m; sourceTree = "<group>"; };
+		6D5846891D6D693000863374 /* NStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NStorage.h; sourceTree = "<group>"; };
+		6D58468A1D6D693000863374 /* NStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NStorage.m; sourceTree = "<group>"; };
+		6D58468B1D6D693000863374 /* NStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NStringExtension.h; sourceTree = "<group>"; };
+		6D58468C1D6D693000863374 /* NStringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NStringExtension.m; sourceTree = "<group>"; };
+		6D58468D1D6D693000863374 /* NTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTracker.h; sourceTree = "<group>"; };
+		6D58468E1D6D693000863374 /* NTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTracker.m; sourceTree = "<group>"; };
+		6D58468F1D6D693000863374 /* NUIDeviceExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIDeviceExtension.h; sourceTree = "<group>"; };
+		6D5846901D6D693000863374 /* NUIDeviceExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIDeviceExtension.m; sourceTree = "<group>"; };
+		6D5846911D6D693000863374 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		6D5846921D6D693000863374 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		6D58469D1D6D69C000863374 /* NLogDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NLogDefines.h; path = Nlog/NLogDefines.h; sourceTree = "<group>"; };
+		6D58469E1D6D69F900863374 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		6D58469F1D6D6ED700863374 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D5846611D6D68AA00863374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5846A01D6D6ED700863374 /* libz.1.2.5.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D58465B1D6D68AA00863374 = {
+			isa = PBXGroup;
+			children = (
+				6D58469F1D6D6ED700863374 /* libz.1.2.5.tbd */,
+				6D58467E1D6D693000863374 /* Nlog */,
+				6D5846661D6D68AA00863374 /* MRC_to_ARC-NLog */,
+				6D5846651D6D68AA00863374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D5846651D6D68AA00863374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D5846641D6D68AA00863374 /* MRC_to_ARC-NLog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D5846661D6D68AA00863374 /* MRC_to_ARC-NLog */ = {
+			isa = PBXGroup;
+			children = (
+				6D58469D1D6D69C000863374 /* NLogDefines.h */,
+				6D58466A1D6D68AA00863374 /* AppDelegate.h */,
+				6D58466B1D6D68AA00863374 /* AppDelegate.m */,
+				6D58466D1D6D68AA00863374 /* ViewController.h */,
+				6D58466E1D6D68AA00863374 /* ViewController.m */,
+				6D5846701D6D68AA00863374 /* Main.storyboard */,
+				6D5846731D6D68AA00863374 /* Assets.xcassets */,
+				6D5846751D6D68AA00863374 /* LaunchScreen.storyboard */,
+				6D5846781D6D68AA00863374 /* Info.plist */,
+				6D58469E1D6D69F900863374 /* Prefix.pch */,
+				6D5846671D6D68AA00863374 /* Supporting Files */,
+			);
+			path = "MRC_to_ARC-NLog";
+			sourceTree = "<group>";
+		};
+		6D5846671D6D68AA00863374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D5846681D6D68AA00863374 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D58467E1D6D693000863374 /* Nlog */ = {
+			isa = PBXGroup;
+			children = (
+				6D58467F1D6D693000863374 /* NLog.h */,
+				6D5846801D6D693000863374 /* NLog.m */,
+				6D5846811D6D693000863374 /* NLogConfig.h */,
+				6D5846821D6D693000863374 /* NLogConfig.m */,
+				6D5846831D6D693000863374 /* NReachability.h */,
+				6D5846841D6D693000863374 /* NReachability.m */,
+				6D5846851D6D693000863374 /* NSender.h */,
+				6D5846861D6D693000863374 /* NSender.m */,
+				6D5846871D6D693000863374 /* NSession.h */,
+				6D5846881D6D693000863374 /* NSession.m */,
+				6D5846891D6D693000863374 /* NStorage.h */,
+				6D58468A1D6D693000863374 /* NStorage.m */,
+				6D58468B1D6D693000863374 /* NStringExtension.h */,
+				6D58468C1D6D693000863374 /* NStringExtension.m */,
+				6D58468D1D6D693000863374 /* NTracker.h */,
+				6D58468E1D6D693000863374 /* NTracker.m */,
+				6D58468F1D6D693000863374 /* NUIDeviceExtension.h */,
+				6D5846901D6D693000863374 /* NUIDeviceExtension.m */,
+				6D5846911D6D693000863374 /* OpenUDID.h */,
+				6D5846921D6D693000863374 /* OpenUDID.m */,
+			);
+			name = Nlog;
+			path = "MRC_to_ARC-NLog/Nlog";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D5846631D6D68AA00863374 /* MRC_to_ARC-NLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D58467B1D6D68AA00863374 /* Build configuration list for PBXNativeTarget "MRC_to_ARC-NLog" */;
+			buildPhases = (
+				6D5846601D6D68AA00863374 /* Sources */,
+				6D5846611D6D68AA00863374 /* Frameworks */,
+				6D5846621D6D68AA00863374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRC_to_ARC-NLog";
+			productName = "MRC_to_ARC-NLog";
+			productReference = 6D5846641D6D68AA00863374 /* MRC_to_ARC-NLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D58465C1D6D68AA00863374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wang,Guoxiang";
+				TargetAttributes = {
+					6D5846631D6D68AA00863374 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D58465F1D6D68AA00863374 /* Build configuration list for PBXProject "MRC_to_ARC-NLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D58465B1D6D68AA00863374;
+			productRefGroup = 6D5846651D6D68AA00863374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D5846631D6D68AA00863374 /* MRC_to_ARC-NLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D5846621D6D68AA00863374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5846771D6D68AA00863374 /* LaunchScreen.storyboard in Resources */,
+				6D5846741D6D68AA00863374 /* Assets.xcassets in Resources */,
+				6D5846721D6D68AA00863374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D5846601D6D68AA00863374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D58466F1D6D68AA00863374 /* ViewController.m in Sources */,
+				6D5846961D6D693000863374 /* NSender.m in Sources */,
+				6D58469A1D6D693000863374 /* NTracker.m in Sources */,
+				6D5846931D6D693000863374 /* NLog.m in Sources */,
+				6D58469B1D6D693000863374 /* NUIDeviceExtension.m in Sources */,
+				6D58466C1D6D68AA00863374 /* AppDelegate.m in Sources */,
+				6D58469C1D6D693000863374 /* OpenUDID.m in Sources */,
+				6D5846691D6D68AA00863374 /* main.m in Sources */,
+				6D5846941D6D693000863374 /* NLogConfig.m in Sources */,
+				6D5846951D6D693000863374 /* NReachability.m in Sources */,
+				6D5846991D6D693000863374 /* NStringExtension.m in Sources */,
+				6D5846971D6D693000863374 /* NSession.m in Sources */,
+				6D5846981D6D693000863374 /* NStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D5846701D6D68AA00863374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5846711D6D68AA00863374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D5846751D6D68AA00863374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5846761D6D68AA00863374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D5846791D6D68AA00863374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D58467A1D6D68AA00863374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D58467C1D6D68AA00863374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangguoxiang/Documents/projects/MRC_to_ARC-NLog/MRC_to_ARC-NLog/MRC_to_ARC-NLog/Prefix.pch";
+				INFOPLIST_FILE = "MRC_to_ARC-NLog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baidu.MRC-to-ARC-NLog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D58467D1D6D68AA00863374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangguoxiang/Documents/projects/MRC_to_ARC-NLog/MRC_to_ARC-NLog/MRC_to_ARC-NLog/Prefix.pch";
+				INFOPLIST_FILE = "MRC_to_ARC-NLog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baidu.MRC-to-ARC-NLog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D58465F1D6D68AA00863374 /* Build configuration list for PBXProject "MRC_to_ARC-NLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5846791D6D68AA00863374 /* Debug */,
+				6D58467A1D6D68AA00863374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D58467B1D6D68AA00863374 /* Build configuration list for PBXNativeTarget "MRC_to_ARC-NLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D58467C1D6D68AA00863374 /* Debug */,
+				6D58467D1D6D68AA00863374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D58465C1D6D68AA00863374 /* Project object */;
+}
